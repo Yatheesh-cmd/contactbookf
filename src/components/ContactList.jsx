@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const baseURL = 'http://localhost:5001/api/contacts';
+const baseURL = 'https://backbb-2ode.onrender.com/api/contacts';
 
 function ContactList({ contacts, fetchContacts, setEditContact }) {
   const handleDeleteContact = async (id) => {

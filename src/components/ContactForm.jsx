@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const baseURL = 'http://localhost:5001/api/contacts';
+const baseURL = 'https://backbb-2ode.onrender.com/api/contacts';
 
 function ContactForm({ fetchContacts, editContact, setEditContact }) {
   const [formData, setFormData] = useState({ name: '', email: '', phone: '' });
